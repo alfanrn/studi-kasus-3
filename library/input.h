@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 using namespace std;
+=======
+#include <iostream>
+using namespace std;
+
+>>>>>>> eb2b58985948e67bb2168115a4a156fa74fc092d
 class Input {
 public:
   void cetak() {	
@@ -17,7 +23,11 @@ public:
     cout<< "\n\t Regional       : ";cin>>RG;
   }
   void toFile() {
+<<<<<<< HEAD
     tulis_data.open("slip_bayar.txt");
+=======
+  //  tulis_data.open("slip_bayar.txt");
+>>>>>>> eb2b58985948e67bb2168115a4a156fa74fc092d
     tulis_data<<SH<<endl;
     tulis_data<<VPS<<endl;
     tulis_data<<CS<<endl;
@@ -25,8 +35,14 @@ public:
     tulis_data<<RG<<endl;
     tulis_data.close();
   }
+<<<<<<< HEAD
 
 private:
   ofstream tulis_data;
   int SH,VPS,CS,DN,bulan,RG;
 }; 
+=======
+private:
+int SH,VPS,CS,DN,bulan,RG; 
+};
+>>>>>>> eb2b58985948e67bb2168115a4a156fa74fc092d
