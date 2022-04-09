@@ -3,6 +3,6 @@ SLIP PEMBAYARAN
   VPS Server       : 1
   Cloud Server     : 1
   Domain Name      : 1
-  Bulan            : 0
+  Bulan            : 1
   Regional         : 0
-Harga total Rp. 1
+Harga total Rp. 82091

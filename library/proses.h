@@ -24,15 +24,13 @@ class Proses {
 
       if (bulan==1){
         diskon_bulan=total*0.03;
-        total=total+diskon_bulan;
       } else{
       }
 
       if (RG==1){
         diskon_rg=total*0.03;
-        total=total+diskon_rg;
       } else{
-	  }
+	  }total=total-diskon_bulan-diskon_rg;
 			tulis_data.open("slip_bayar.txt");
 			tulis_data << total << endl;
 			tulis_data << banyak_SH << endl;
@@ -56,5 +54,6 @@ class Proses {
 	int hrg_VPS = 930;
     int hrg_CS = 5000;
     int hrg_DN = 280;
-    int RG,bulan;
+    int RG;
+	int bulan;
 }; 
