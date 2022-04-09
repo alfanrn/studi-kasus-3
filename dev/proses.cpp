@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include ".../library/proses.h"
+#include "../library/proses.h"
 
 int main(){
 	Proses proses;
